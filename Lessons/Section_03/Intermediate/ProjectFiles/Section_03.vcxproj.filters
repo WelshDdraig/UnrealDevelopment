@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\Section_03.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{29607ABB-A658-4914-B0FB-6E3FA6621BF1}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Section_03.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\Section_03Editor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{A905CDFC-A912-4D6B-90DA-BF1709EFAF7C}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\Section_03">
+      <UniqueIdentifier>{71EC322F-2FA6-4DE6-B3AD-AA0A513C3526}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Section_03\Section_03.Build.cs">
+      <Filter>Source\Section_03</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\Section_03\Section_03.cpp">
+      <Filter>Source\Section_03</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Section_03\Section_03.h">
+      <Filter>Source\Section_03</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Section_03\Section_03GameModeBase.cpp">
+      <Filter>Source\Section_03</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Section_03\Section_03GameModeBase.h">
+      <Filter>Source\Section_03</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\Section_03\PositionReport.h">
+      <Filter>Source\Section_03</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\Section_03\PositionReport.cpp">
+      <Filter>Source\Section_03</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
